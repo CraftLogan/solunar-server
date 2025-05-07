@@ -1,1 +1,89 @@
-IyBTb2x1bmFyIFNlcnZlciBBUEkgQXJjaGl0ZWN0dXJlIE92ZXJ2aWV3CgpUaGlzIGRvY3VtZW50IHByb3ZpZGVzIGFuIG92ZXJ2aWV3IG9mIHRoZSBhcmNoaXRlY3R1cmUgZGVzaWduIGZvciB0aGUgU29sdW5hciBTZXJ2ZXIgQVBJLCBidWlsdCB0byBwcm92aWRlIGNvbXByZWhlbnNpdmUgc29sdW5hciBpbmZvcm1hdGlvbiBzdWNoIGFzIG1vb24gcGhhc2VzLCBiZXN0IGZpc2hpbmcvaHVudGluZyB0aW1lcywgc3VucmlzZSwgYW5kIHN1bnNldCBkYXRhLiBUaGlzIEFQSSBpcyBwcmltYXJpbHkgdGFyZ2V0ZWQgYXQgaHVudGVycyBhbmQgZmlzaGVybWVuIHdobyBuZWVkIHJlYWwtdGltZSBmb3JlY2FzdHMgdG8gZW5oYW5jZSB0aGVpciBhY3Rpdml0aWVzLgoKIyMgVGFibGUgb2YgQ29udGVudHMKCi0gW1Byb2plY3QgUHVycG9zZV0oI3Byb2plY3QtcHVycG9zZSkKLSBbQ29yZSBBcmNoaXRlY3R1cmVdKCNjb3JlLWFyY2hpdGVjdHVyZSkKICAtIFtEYXRhIEFjcXVpc2l0aW9uXSgjZGF0YS1hY3F1aXNpdGlvbikKICAtIFtEYXRhIFByb2Nlc3NpbmddKCNkYXRhLXByb2Nlc3NpbmcpCiAgLSBbQVBJIExheWVyXSgjYXBpLWxheWVyKQotIFtUZWNobm9sb2d5IFN0YWNrXSgjdGVjaG5vbG9neS1zdGFjaykKLSBbRGF0YSBGbG93XSgjZGF0YS1mbG93KQotIFtTZWN1cml0eV0oI3NlY3VyaXR5KQotIFtFcnJvciBIYW5kbGluZyBhbmQgTG9nZ2luZ10oI2Vycm9yLWhhbmRsaW5nLWFuZC1sb2dnaW5nKQotIFtBUEkgRG9jdW1lbnRhdGlvbl0oI2FwaS1kb2N1bWVudGF0aW9uKQotIFtEZXZlbG9wbWVudCBUaW1lbGluZV0oI2RldmVsb3BtZW50LXRpbWVsaW5lKQoKIyMgUHJvamVjdCBQdXJwb3NlCgpUaGUgU29sdW5hciBTZXJ2ZXIgQVBJIGlzIGRlc2lnbmVkIHRvIHNlcnZlIGFzIGEgcmVsaWFibGUgc291cmNlIG9mIHNvbHVuYXIgZGF0YSwgdXBkYXRpbmcgaG91cmx5IHRvIGVuc3VyZSBhY2N1cmFjeSBhbmQgcmVsZXZhbmNlLiBJdCBwcm92aWRlcyBKU09OLWZvcm1hdHRlZCByZXNwb25zZXMgdG8gY2F0ZXIgdG8gbW9kZXJuIGFwcGxpY2F0aW9ucyBhbmQgZWFzZSBvZiBpbnRlZ3JhdGlvbi4KCiMjIENvcmUgQXJjaGl0ZWN0dXJlCgpUaGUgYXJjaGl0ZWN0dXJlIGNvbnNpc3RzIG9mIHRocmVlIG1haW4gY29tcG9uZW50czogRGF0YSBBY3F1aXNpdGlvbiwgRGF0YSBQcm9jZXNzaW5nLCBhbmQgdGhlIEFQSSBMYXllci4KCiMjIyBEYXRhIEFjcXVpc2l0aW9uCgotICoqU291cmNlKio6IFRoZSBBUEkgbWF5IHVzZSBhIHRoaXJkLXBhcnR5IHdlYXRoZXIgQVBJIHRvIGdhdGhlciBuZWNlc3Nhcnkgc29sdW5hciBkYXRhLCBpbmNsdWRpbmcgbW9vbiBwaGFzZXMsIHN1bnJpc2Uvc3Vuc2V0IHRpbWVzLCBhbmQgbW9yZS4KLSAqKkZyZXF1ZW5jeSoqOiBVcGRhdGVzIHRvIGRhdGEgb2NjdXIgaG91cmx5IHRvIG1haW50YWluIGhpZ2ggYWNjdXJhY3kuCgojIyMgRGF0YSBQcm9jZXNzaW5nCgotICoqVHJhbnNmb3JtYXRpb25zKio6IERhdGEgaXMgcHJvY2Vzc2VkIGFuZCB0cmFuc2Zvcm1lZCBpbnRvIGEgdXNhYmxlIGZvcm1hdCwgY2FwdHVyaW5nIHJlbGV2YW50IHNvbHVuYXIgZXZlbnRzIGFuZCBtZXRyaWNzLgotICoqU3RvcmFnZSoqOiBQcm9jZXNzZWQgZGF0YSBpcyB0ZW1wb3JhcmlseSBzdG9yZWQgaW4gYSBjYWNoZSB0byBlbnN1cmUgcXVpY2sgQVBJIHJlc3BvbnNlcy4KICAKIyMjIEFQSSBMYXllcgoKLSAqKkVuZHBvaW50cyoqOiBQcm92aWRlcyB2YXJpb3VzIGVuZHBvaW50cyB0byBhY2Nlc3MgZGlmZmVyZW50IHNvbHVuYXIgZGF0YSB0eXBlcyAoZS5nLiwgYC9tb29uLXBoYXNlYCwgYC9iZXN0LXRpbWVzYCkuCi0gKipSZXNwb25zZSBGb3JtYXQqKjogUmVzcG9uc2VzIGFyZSBmb3JtYXR0ZWQgaW4gSlNPTi4KCiMjIFRlY2hub2xvZ3kgU3RhY2sKCi0gKipQcm9ncmFtbWluZyBMYW5ndWFnZSoqOiBQSFAKLSAqKkRhdGEgU3RvcmFnZSoqOiBJbi1tZW1vcnkgY2FjaGUgKGUuZy4sIFJlZGlzIG9yIE1lbWNhY2hlZCkKLSAqKlRoaXJkLXBhcnR5IEFQSXMqKjogRXh0ZXJuYWwgd2VhdGhlciBBUEkgZm9yIHNvbHVuYXIgZGF0YQotICoqU2VjdXJpdHkqKjogVG9rZW4tYmFzZWQgYXV0aGVudGljYXRpb24KCiMjIERhdGEgRmxvdwoKVGhlIGZvbGxvd2luZyBNZXJtYWlkIGRpYWdyYW0gaWxsdXN0cmF0ZXMgdGhlIGRhdGEgZmxvdyB3aXRoaW4gdGhlIFNvbHVuYXIgU2VydmVyIEFQSToKCmBgYG1lcm1haWQKZ3JhcGggTFI7CiAgICBBW0V4dGVybmFsIFdlYXRoZXIgQVBJXSAtLT58RGF0YSBSZXRyaWV2YWx8IEJbRGF0YSBBY3F1aXNpdGlvbiBNb2R1bGVdOwogICAgQiAtLT4gfERhdGEgUHJvY2Vzc2luZ3wgQ1tQcm9jZXNzaW5nIE1vZHVsZV07CiAgICBDIC0tPiB8Q2FjaGUgRGF0YXwgRFtJbi1tZW1vcnkgQ2FjaGVdOwogICAgRCAtLT4gfFNlcnZlIERhdGF8IEVbQVBJIExheWVyXTsKICAgIEUgLS0+IHxKU09OIFJlc3BvbnNlfCBGW0NsaWVudF0KYGBgCgojIyBTZWN1cml0eQoKVGhlIEFQSSBpbXBsZW1lbnRzIGJhc2ljIHRva2VuIHNlY3VyaXR5IHRvIGVuc3VyZSBhdXRob3JpemVkIGFjY2VzczoKCi0gKipUb2tlbi1iYXNlZCBBdXRoZW50aWNhdGlvbioqOiBDbGllbnRzIG11c3QgcHJvdmlkZSBhIHZhbGlkIHRva2VuIHdpdGggZWFjaCByZXF1ZXN0LgoKIyMgRXJyb3IgSGFuZGxpbmcgYW5kIExvZ2dpbmcKCi0gKipFcnJvciBIYW5kbGluZyoqOiBJbXBsZW1lbnRzIGNvbXByZWhlbnNpdmUgZXJyb3ItaGFuZGxpbmcgbWVjaGFuaXNtcyB0byBtYW5hZ2UgZXhjZXB0aW9ucyBhbmQgcHJvdmlkZSBtZWFuaW5nZnVsIGVycm9yIG1lc3NhZ2VzLgotICoqTG9nZ2luZyoqOiBMb2dzIGltcG9ydGFudCBldmVudHMgYW5kIGVycm9ycyB0byBhIGNlbnRyYWxpemVkIGxvZ2dpbmcgc3lzdGVtIGZvciBtb25pdG9yaW5nIGFuZCB0cm91Ymxlc2hvb3RpbmcuCgojIyBBUEkgRG9jdW1lbnRhdGlvbgoKRG9jdW1lbnRhdGlvbiBpcyBhIHZpdGFsIHBhcnQgb2YgdGhlIEFQSSBmb3IgdXNlciBndWlkYW5jZToKCi0gKipDb250ZW50Kio6IEluY2x1ZGVzIGRldGFpbGVkIGluc3RydWN0aW9ucyBvbiB1c2luZyBlYWNoIGVuZHBvaW50LCBleHBlY3RlZCBwYXJhbWV0ZXJzLCBhbmQgc2FtcGxlIHJlc3BvbnNlcy4KLSAqKkZvcm1hdCoqOiBBY2Nlc3NpYmxlIG9ubGluZSwgcG9zc2libHkgdXNpbmcgdG9vbHMgbGlrZSBTd2FnZ2VyIGZvciBpbnRlcmFjdGl2ZSBkb2N1bWVudGF0aW9uLgoKIyMgRGV2ZWxvcG1lbnQgVGltZWxpbmUKClRoZSBwcm9qZWN0IGRldmVsb3BtZW50IHdpbGwgZm9sbG93IGFuIGFnZ3Jlc3NpdmUgdGltZWxpbmUgb2YgdHdvIHdlZWtzOgoKLSAqKldlZWsgMSoqOiBTZXQgdXAgdGhlIGRldmVsb3BtZW50IGVudmlyb25tZW50LCBpbXBsZW1lbnQgdGhlIGRhdGEgYWNxdWlzaXRpb24gYW5kIHByb2Nlc3NpbmcgbW9kdWxlcy4KLSAqKldlZWsgMioqOiBDb21wbGV0ZSB0aGUgQVBJIGxheWVyLCBpbXBsZW1lbnQgc2VjdXJpdHksIGNvbmR1Y3QgdGVzdGluZywgZmluYWxpemUgQVBJIGRvY3VtZW50YXRpb24sIGFuZCBwcmVwYXJlIGZvciBkZXBsb3ltZW50LgoKVGhpcyBvdmVydmlldyBvdXRsaW5lcyB0aGUgY3JpdGljYWwgY29tcG9uZW50cyBhbmQgY29uc2lkZXJhdGlvbnMgaW4gdGhlIGFyY2hpdGVjdHVyZSBvZiB0aGUgU29sdW5hciBTZXJ2ZXIgQVBJLCBlbnN1cmluZyBpdCBtZWV0cyB0aGUgcHJvamVjdCBhbmQgdXNlciByZXF1aXJlbWVudHMgZWZmaWNpZW50bHkuCg==
+# Architecture Overview
+
+This document provides an in-depth overview of the system architecture for the Mini Golf Scorecard App. The app is designed to empower golf courses to manage customizable digital scorecards that include branding, sponsorships, and user interaction features.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [System Components](#system-components)
+- [User Flows](#user-flows)
+- [Data Model](#data-model)
+- [Integration with External Services](#integration-with-external-services)
+- [Conclusion](#conclusion)
+
+## Introduction
+
+The Mini Golf Scorecard App is a web-based application that allows golf courses to create and manage digital scorecards. These scorecards are customizable to align with each course's branding and can include elements such as logos, colors, sponsors, and stories specific to each hole. The app also facilitates the collection of Google Reviews to enhance course visibility and feedback.
+
+## System Components
+
+The architecture is divided into the following primary components:
+
+- **Frontend**: A single-page application built with modern web technologies to provide a rich user interface for course registration, scorecard management, and branding customization.
+- **Backend**: A lightweight service managing course data, scorecards, and integrates with Google Places for review collection.
+- **Database**: A relational database storing course details, scorecard configurations, and sponsor information.
+
+## User Flows
+
+The user interactions with the app can be described as follows:
+
+### Course Registration Flow
+
+```mermaid
+graph LR;
+    A[Course fills Registration Form] --> B[System validates input]
+    B --> C[Create Course with Default Scorecard]
+    C --> D[Onboarding for Branding]
+    D --> E[Setup Complete]
+```
+
+### Scorecard Customization Flow
+
+```mermaid
+graph LR;
+    A[Access Scorecard Customization] --> B[Modify Branding Elements]
+    B --> C[Add/Edit Sponsors and Stories]
+    C --> D[Save Changes]
+    D --> E[Scorecard Updated]
+```
+
+### Google Review Collection Flow
+
+```mermaid
+graph LR;
+    A[End of Game Detected] --> B[Fetch Course Google Place ID]
+    B --> C[Display Google Review Modal]
+    C --> D[User Submits Review]
+    D --> E[Review Stored]
+```
+
+## Data Model
+
+The following schema illustrates the high-level data model used in the application:
+
+```mermaid
+erDiagram
+    Course ||--o{ Scorecard : has
+    Course {
+        string id PK
+        string name
+        string logo
+        string colors
+        string googlePlaceId
+    }
+    Scorecard {
+        string id PK
+        string courseId FK
+        int numberOfHoles
+        json holesConfiguration
+        json sponsorsAndStories
+    }
+```
+
+## Integration with External Services
+
+The app does not integrate with external golf course databases. Instead, it uses Google Places API to fetch and link the Google Place ID for collecting reviews. This integration is essential for the seamless collection of feedback at the end of a game.
+
+## Conclusion
+
+The Mini Golf Scorecard App aims to digitize the traditional scorecard experience while providing customization options unique to each course's brand. By allowing courses to manage their own scorecards, sponsors, and gather reviews, the app enhances the marketing and user experience while maintaining simplicity and ease of use.
