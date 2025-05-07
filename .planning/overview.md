@@ -1,79 +1,64 @@
-# Mini Golf Scorecard App Project Overview
+# Overview of the Mini Golf Scorecard App Project
 
-## Project Description
+## Project Summary
 
-The Mini Golf Scorecard App is an innovative digital solution tailored for golf courses to manage their scorecards. This web app enables courses to customize their digital scorecards with branding elements such as logos, colors, and typography. It provides a platform for courses to set specific rules, manage sponsorships, and tell stories about each hole. The application aims to enhance course marketing through digital engagement and streamlining the Google Reviews collection process.
+The Mini Golf Scorecard App is a web-based application designed to revolutionize the way mini golf courses manage and present their scorecards. This application empowers each course to enhance brand visibility by creating custom scorecards integrated with their unique logos, colors, and other brand elements. Additionally, the app encourages user reviews on Google to enhance course marketing.
 
-## Features
+## Core Features
 
-- **Course Management**
-  - Courses can register and create profiles using a dedicated registration screen.
-  - Courses can customize branding with logos, colors, typography, and a header image.
+- **Course Customization**
+  - Courses can personalize their scorecards with specific branding elements such as logos, colors, typography, and header images.
+  - Ability to set custom text-based rules to guide players, displayed in modals.
 
-- **Scorecard Customization**
-  - Predefined templates for scorecards with 18 holes.
-  - Options to configure text-based rules for each scorecard.
-  - System for adding sponsors and stories for each hole.
+- **Dynamic Scorecard Management**
+  - Predefined scorecard templates with the standard 18 holes provided upon course creation.
+  - Innovative onboarding flow to assist course managers in customizing visual aspects and linking to Google Places.
 
-- **User Experience**
-  - No personal user accounts are required.
-  - Onboarding flow to set up branding and Google Place ID for review collection.
-  - Modal popup at the end of the game to prompt Google Reviews.
+- **Sponsor and Story Integration**
+  - Courses can enhance each hole with sponsor information or course stories using a flexible repeater field system.
+  - Each hole can be customized to include varied configurations of sponsors and stories.
 
-## System Architecture
+- **Feedback Mechanism**
+  - At the game's end, a pop-up modal prompts players to submit reviews on Google, linked directly through Google Place IDs.
 
-```mermaid
-graph LR;
-    A[Course Registration] --> B[Profile Creation];
-    B --> C[Brand Customization];
-    C --> D[Scorecard Configuration];
-    D --> E[Sponsor and Story Management];
-    E --> F[Digital Scorecard Display];
-    F --> G[Google Review Collection];
-```
+## Architecture and Workflow
 
-## Course Customization Features
-
-- **Branding Elements**
-  - Logo
-  - Colors
-  - Typography
-  - Header image on the scorecard
-
-- **Scorecard Rules**
-  - Configurable text-based rules displayed in a modal window.
-
-- **Sponsor and Story Configuration**
-  - Add holes and assign sponsors or stories using a repeater field system.
-
-## Review Collection Workflow
+### User Interaction Flow
 
 ```mermaid
 graph LR;
-    A[Game Completion] --> B[Prompt for Google Review];
-    B --> C[Display Modal for Review];
-    C --> D[Submit Review to Google];
+    A[Course Registration] --> B[Onboarding Flow];
+    B --> C[Customize Branding];
+    C --> D[Configure Holes, Sponsors & Stories];
+    D --> E[Manage Scorecards];
+    E --> F[Players View & Play];
+    F --> G[Endgame Modal for Google Review];
 ```
 
-## Goals
+### Scorecard Management Process
 
-1. **Digital Scorecard Implementation**
-   - Transition traditional scorecards to a digital format enhancing accessibility and usability.
+```mermaid
+graph LR;
+    H[Scorecard Template] --> I{Course Customization};
+    I --> J[Select Branding Elements];
+    I --> K[Set Text-Based Rules];
+    I --> L[Add Sponsors & Stories];
+    I --> M[Ready for Player Use];
+```
 
-2. **Course Branding Enhancement**
-   - Allow courses to showcase their unique identity through customizable digital scorecards.
+## Technical Specifications
 
-3. **Review Collection Efficiency**
-   - Facilitate seamless Google Reviews collection as part of the app's features to bolster course marketing.
+- **Platform:** Web-based application, accessible on mobile and desktop devices.
+- **User Accounts:** Focused solely on course management with no personal user accounts.
+- **Data Management:** No integration with external systems or databases; internal data management within the app.
+- **Design Flexibility:** Courses have access to a predefined scorecard template which they can customize extensively.
 
-## Development Considerations
+## Project Goals
 
-- The app will be available exclusively as a web application.
-- No external system integrations or databases are required at this stage.
-- Developers should focus on a flexible and user-friendly UI for course administrators.
-- There are no strict timelines set for design or development phases.
+1. **Digitization of Scorecards:** Transition traditional scorecards to a modern, digital format.
+2. **Enhanced Marketing:** Facilitate the collection of user-generated reviews on Google to improve course visibility.
+3. **Course Autonomy:** Allow courses to self-manage their branding and promotional content directly through the app.
 
 ## Conclusion
 
-The Mini Golf Scorecard App is poised to revolutionize how golf courses manage and present their scorecards to players. With comprehensive customization features, potential for increased marketing through reviews, and a user-focused design, this app stands to offer significant value to mini golf courses looking to enter the digital age.
-```
+The Mini Golf Scorecard App stands as a tool tailored for courses to efficiently manage their digital presence and customer interactions. By focusing on customization and seamless integration with Google Reviews, the app not only streamlines golf management but also contributes to marketing efforts, ultimately enhancing the user experience.
