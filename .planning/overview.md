@@ -1,81 +1,79 @@
-# Mini Golf Scorecard App - Project Overview
+# Mini Golf Scorecard App Project Overview
 
 ## Project Description
 
-The Mini Golf Scorecard App is designed to streamline the management of scorecards for mini golf courses, while allowing courses to maintain and enhance their brand through customizable elements. This web-based app will enable courses to manage their scorecards, complete with custom branding, sponsor stories, and dynamic rule display, all without the need for personal user accounts. The primary focus is on making the scorecard digital and facilitating the collection of Google Reviews.
+The Mini Golf Scorecard App is an innovative digital solution tailored for golf courses to manage their scorecards. This web app enables courses to customize their digital scorecards with branding elements such as logos, colors, and typography. It provides a platform for courses to set specific rules, manage sponsorships, and tell stories about each hole. The application aims to enhance course marketing through digital engagement and streamlining the Google Reviews collection process.
 
-## Key Features and Functionalities
+## Features
 
-### Course Customization
+- **Course Management**
+  - Courses can register and create profiles using a dedicated registration screen.
+  - Courses can customize branding with logos, colors, typography, and a header image.
 
-- **Branding Elements:**
-  - Customizable logos, colors, typography, and header images on scorecards.
+- **Scorecard Customization**
+  - Predefined templates for scorecards with 18 holes.
+  - Options to configure text-based rules for each scorecard.
+  - System for adding sponsors and stories for each hole.
 
-- **Scorecard Management:**
-  - Default scorecard templates provided with 18 holes.
-  - Onboarding flow for uploading logos and selecting color schemes.
+- **User Experience**
+  - No personal user accounts are required.
+  - Onboarding flow to set up branding and Google Place ID for review collection.
+  - Modal popup at the end of the game to prompt Google Reviews.
 
-### Configuration Systems
-
-- **Rules Management:**
-  - Courses can define text-based rules, displayed via modal pop-ups.
-
-- **Sponsors and Stories:**
-  - System to add and configure sponsors or stories for specific holes using a repeater field structure.
-
-### User Interaction
-
-- **Review System:**
-  - Integration with Google Places to gather Google Reviews post-game.
-  - Automatic linkage to course's Google Place ID based on address input during onboarding.
-
-## Technology Stack
-
-- **Platform:** Web-based application.
-- **External Systems:** Direct integration with Google Places for review collection.
-- **Database:** Standalone, as there are no integrations with existing external databases.
-
-## Registration and Profile Setup
-
-Courses can register and create profiles using a built-in registration screen. This flow includes options for setting up initial customization through an intuitive onboarding sequence.
-
-## Architecture Overview
+## System Architecture
 
 ```mermaid
 graph LR;
-    A[User Registration] --> B[Course Profile Setup];
+    A[Course Registration] --> B[Profile Creation];
     B --> C[Brand Customization];
-    C --> D[Scorecard Management];
-    D --> E[Sponsor & Story Configuration];
-    D --> F[Rule Management];
-    E --> G[Scorecards with Sponsors & Stories];
-    F --> G;
-    G --> H[Google Review Collection];
+    C --> D[Scorecard Configuration];
+    D --> E[Sponsor and Story Management];
+    E --> F[Digital Scorecard Display];
+    F --> G[Google Review Collection];
 ```
 
-## Usage Flow Example
+## Course Customization Features
 
-1. **Course Registration:**
-   - Initiate registration.
-   - Customized onboarding to choose branding elements.
+- **Branding Elements**
+  - Logo
+  - Colors
+  - Typography
+  - Header image on the scorecard
 
-2. **Scorecard Creation:**
-   - Use predefined template.
-   - Customize using branding choices.
+- **Scorecard Rules**
+  - Configurable text-based rules displayed in a modal window.
 
-3. **Game Execution:**
-   - Players interact with digital scorecard.
-   - Experiences sponsors and stories with tailored information.
+- **Sponsor and Story Configuration**
+  - Add holes and assign sponsors or stories using a repeater field system.
 
-4. **Review Process:**
-   - Complete game feedback loop.
-   - Trigger Google Review request.
+## Review Collection Workflow
 
-## Goal and Intent
+```mermaid
+graph LR;
+    A[Game Completion] --> B[Prompt for Google Review];
+    B --> C[Display Modal for Review];
+    C --> D[Submit Review to Google];
+```
 
-The app aims to improve the digital experience of mini golf scorecards primarily for course management, facilitate the branding and marketing for golf courses, and streamline the review collection process to enhance online presence.
+## Goals
 
-## Timeline
+1. **Digital Scorecard Implementation**
+   - Transition traditional scorecards to a digital format enhancing accessibility and usability.
 
-There are no specific timelines set for the design or development phases, offering flexibility in execution to refine and perfect the app’s functionalities.
+2. **Course Branding Enhancement**
+   - Allow courses to showcase their unique identity through customizable digital scorecards.
+
+3. **Review Collection Efficiency**
+   - Facilitate seamless Google Reviews collection as part of the app's features to bolster course marketing.
+
+## Development Considerations
+
+- The app will be available exclusively as a web application.
+- No external system integrations or databases are required at this stage.
+- Developers should focus on a flexible and user-friendly UI for course administrators.
+- There are no strict timelines set for design or development phases.
+
+## Conclusion
+
+The Mini Golf Scorecard App is poised to revolutionize how golf courses manage and present their scorecards to players. With comprehensive customization features, potential for increased marketing through reviews, and a user-focused design, this app stands to offer significant value to mini golf courses looking to enter the digital age.
 ```
